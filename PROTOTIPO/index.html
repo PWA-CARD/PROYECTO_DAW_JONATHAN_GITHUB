@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Centro de Musculación y Acondicionamiento Físico – Tu centro de musculación</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+</head>
+<body>
+
+<!-- BARRA DE NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="img/9082355.jpg" width="40" class="me-2">
+      <strong>Centro de Musculación y Acondicionamiento Físico</strong>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="reservas.html">Reservas</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Iniciar sesión</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- LLAMADA A LA ACCIÓN -->
+<section class="hero text-center">
+  <div class="container">
+    <h1 class="fw-bold text-white">Bienvenido al Centro de Musculación y Acondicionamiento Físico</h1>
+    <p class="lead mt-3 text-white">
+      Tu centro de musculación y acondicionamiento físico.  
+      Reserva clases, gestiona tu perfil y disfruta de una experiencia fitness profesional.
+    </p>
+
+    <a href="login.html" class="btn btn-warning btn-lg mt-3">Empezar ahora</a>
+  </div>
+</section>
+
+<!-- CARRUSEL DE IMÁGENES -->
+<div id="carouselExample" class="carousel slide mt-5">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/banner1.webp" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/banner2.webp" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/banner3.webp" class="d-block w-100">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- TARJETAS DE NAVEGACIÓN -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Nuestros servicios</h2>
+
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card card-hover shadow-sm">
+        <img src="img/pesa.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Musculación</h5>
+          <p class="card-text">Accede a rutinas personalizadas y entrena con nuestros profesionales.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card card-hover shadow-sm">
+        <img src="img/yoga.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Clases dirigidas</h5>
+          <p class="card-text">Reserva clases de cardio, spinning, yoga y mucho más.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card card-hover shadow-sm">
+        <img src="img/boxeo.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Entrenamiento funcional</h5>
+          <p class="card-text">Mejora tu movilidad, equilibrio y fuerza con sesiones especializadas.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- EJEMPLO DE PAGINACIÓN -->
+<nav class="mt-5">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled"><a class="page-link">Anterior</a></li>
+    <li class="page-item active"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">3</a></li>
+    <li class="page-item"><a class="page-link">Siguiente</a></li>
+  </ul>
+</nav>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-light mt-5 py-4">
+  <div class="container text-center">
+    <img src="img/9082355.jpg" class="footer-logo mb-2">
+    <p class="mb-1">© 2025 Centro de Musculación y Acondicionamiento Físico | Todos los derechos reservados</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
