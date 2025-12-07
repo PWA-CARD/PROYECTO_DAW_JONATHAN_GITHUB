@@ -1,20 +1,3 @@
-/* Ajustes mínimos permitidos por el enunciado */
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.root {
-
-  --font-family: "Merienda", cursive;
-  --primary-color-orange: #EDAE6F;
-  --primary-color-dark: #000000;
-  --primary-color-blue: #48A9EE;
-  --secondary-color-ligght-orange: #EABD8F;
-  --secondary-color-light-blue: #BEE5F6;
-  --background-hover: #BEE5F6;
-  --color-hover: white;
-  --active-button: #EDAE6F;
-  --pressed-button: #48A9EE;
-  --dissabled-button: #000000;
-  --dissabled-text: #EDAE6F;
-}
 * {
   font-family: var(--font-family); /* Aplicar la fuente personalizada a todo el documento */
 }
