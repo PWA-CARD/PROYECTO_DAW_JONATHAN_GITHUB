@@ -1,6 +1,5 @@
 .hero {
   background: linear-gradient(to right, #EDAE6F, #212529);
-  color: linear-gradient(to right, #EDAE6F, #BEE5F6);
   padding: 80px 20px;
 }
 .card-hover:hover {
@@ -12,10 +11,13 @@
   height: 40px;
 }
 @media (max-width: 576px) {
-  .navbar-brand strong {
+  .navbar-brand {
     white-space: normal !important;  
-    font-size: 0.75rem;             
+  }
+  .navbar-brand strong {
+    font-size: 0.75rem;
     line-height: 1.1;
   }
 }
+
 
