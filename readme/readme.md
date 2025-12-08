@@ -76,9 +76,9 @@ Este prototipo incluye todos los elementos solicitados en la práctica:
 ## Visualización del prototipo  
 Este proyecto está publicado mediante **GitHub Pages** y puede visualizarse desde la siguiente URL:
 
-**https://TU-USUARIO.github.io/TU-REPO/**
+**https://github.com/PWA-CARD/PROYECTO_DAW_JONATHAN_GITHUB/index.html**
 
-> Sustituye esta URL por la real cuando publiques el repositorio.
+
 
 ---
 
