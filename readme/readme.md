@@ -76,7 +76,7 @@ Este prototipo incluye todos los elementos solicitados en la práctica:
 ## Visualización del prototipo  
 Este proyecto está publicado mediante **GitHub Pages** y puede visualizarse desde la siguiente URL:
 
-**https://github.com/PWA-CARD/PROYECTO_DAW_JONATHAN_GITHUB/index.html**
+**https://github.com/PWA-CARD/PROYECTO_DAW_JONATHAN_GITHUB/**
 
 
 
