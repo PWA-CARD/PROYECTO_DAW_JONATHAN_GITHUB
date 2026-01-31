@@ -1,0 +1,11 @@
+# XAMPP / temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Si algún día usas composer/node
+/vendor/
+node_modules/
+
+# Config local si algún día lo tienes
+.env
