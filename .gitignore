@@ -3,9 +3,9 @@
 .DS_Store
 Thumbs.db
 
-# Si algún día usas composer/node
+# Si algún día se composer/node
 /vendor/
 node_modules/
 
-# Config local si algún día lo tienes
+# Config local si algún día se tiene
 .env
